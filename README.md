@@ -8,8 +8,21 @@ React Native lets you build mobile apps using only JavaScript. It uses the same 
 
 List of pull requests:
 
-* 
+* [How to create a React Native application.](https://github.com/pedrovgs/ReactNativePlayground/pull/1)
 
+## How to run this app
+
+Move into the ``app`` folder and execute the command ``expo start``. This will open a site in your default browser asking you for deploying the app on an Android or iOS device just like this:
+
+![expoUI](./art/expoMetroBundler.png)
+
+The terminal UI will also show a similar interface. You can use the QR code, directly deploy the app into your connected device or send an email to any user. As soon as the target device is in the same network ``expo`` will be able to run the app.
+
+Once you get the app up and running, you'll be able to change anything in your app an the change will be automatically refreshed in your emulator or device :smiley:
+
+Expo has a menu you can open from the iOS/Android emulator by pressing ``CMD + D`` or shaking your device. It looks like this:
+
+![expomenu](./art/expoMenu.png)
 
 Developed By
 ------------
