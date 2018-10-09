@@ -8,7 +8,7 @@ React Native lets you build mobile apps using only JavaScript. It uses the same 
 
 List of pull requests:
 
-* How to create a React Native application.
+* [How to create a React Native application.](https://github.com/pedrovgs/ReactNativePlayground/pull/1)
 
 ## How to run this app
 
