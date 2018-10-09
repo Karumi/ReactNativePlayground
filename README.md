@@ -12,7 +12,7 @@ List of pull requests:
 
 ## How to run this app
 
-Move into the ``app`` folder and execute the command ``npm start``. This will open a site in your default browser asking you for deploying the app on an Android or iOS device just like this:
+Move into the ``app`` folder and execute the command ``yarn start``. This will open a site in your default browser asking you for deploying the app on an Android or iOS device just like this:
 
 ![expoUI](./art/expoMetroBundler.png)
 
