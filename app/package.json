@@ -8,6 +8,8 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "lint": "eslint .",
+    "clean": "rimraf artifacts",
+    "test": "jest",
     "fixLint": "eslint --fix ."
   },
   "dependencies": {
@@ -19,9 +21,13 @@
   "devDependencies": {
     "@types/expo": "27.0.13",
     "@types/expo__vector-icons": "6.2.3",
-    "@types/react": "16.4.16",
-    "@types/react-native": "0.57.4",
+    "@types/jest": "^23.3.5",
+    "@types/react": "^16.4.16",
+    "@types/react-native": "^0.57.4",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-preset-react-native": "^4.0.1",
+    "concurrently": "^4.0.1",
     "eslint": "^5.6.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
@@ -30,7 +36,28 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-react-native": "^3.3.0",
     "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0",
+    "jest-expo": "^30.0.0",
     "react-native-typescript-transformer": "1.2.10",
+    "react-test-renderer": "^16.5.2",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.10.4",
     "typescript": "3.1.2"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(expo-react-native-adapter|react-native|lottie-react-native|expo|react-native-maps|react-native-svg|react-native-branch|native-base-shoutem-theme|react-native-easy-grid|react-native-drawer|react-native-vector-icons|react-native-keyboard-aware-scroll-view|react-navigation|native-base|@expo|react-native-scrollable-tab-view)/)"
+    ]
   }
 }
