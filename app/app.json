@@ -34,5 +34,17 @@
       ],
       "transformer": "node_modules/react-native-typescript-transformer/index.js"
     }
-  }
+  },
+  "hooks": {
+    "postPublish": [
+        {
+            "file": "sentry-expo/upload-sourcemaps",
+            "config": {
+                "organization": "pedros-lab",
+                "project": "reactnativeplayground",
+                "authToken": "8dd1dde0cc9911e891314201c0a8d033"
+            }
+        }
+    ]
+}
 }
