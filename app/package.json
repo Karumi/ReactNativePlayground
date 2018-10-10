@@ -7,10 +7,11 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
-    "lint": "eslint .",
+    "lint": "eslint . && tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "clean": "rimraf artifacts",
     "test": "jest",
-    "fixLint": "eslint --fix ."
+    "testWatching": "jest --watch",
+    "fixLint": "eslint --fix . && tslint -c tslint.json 'src/**/*.{ts,tsx}' --fix"
   },
   "dependencies": {
     "expo": "^30.0.1",
@@ -42,6 +43,7 @@
     "react-test-renderer": "^16.5.2",
     "rimraf": "^2.6.2",
     "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
     "typescript": "3.1.2"
   },
   "jest": {
