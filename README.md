@@ -10,6 +10,7 @@ List of pull requests:
 
 * [How to create a React Native application.](https://github.com/pedrovgs/ReactNativePlayground/pull/1)
 * [How to configure Travis CI.](https://github.com/pedrovgs/ReactNativePlayground/pull/2)
+* [How to add Typescript and Jest support](https://github.com/Karumi/ReactNativePlayground/pull/3)
 
 ## How to run this app
 
