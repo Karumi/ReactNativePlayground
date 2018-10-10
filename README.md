@@ -1,4 +1,4 @@
-# React Native Playground [![Build Status](https://travis-ci.com/pedrovgs/ReactNativePlayground.svg?branch=master)](https://travis-ci.com/pedrovgs/ReactNativePlayground)
+# React Native Playground [![Build Status](https://travis-ci.com/Karumi/ReactNativePlayground.svg?branch=master)](https://travis-ci.com/Karumi/ReactNativePlayground)
 
 Playground used to learn and experiment with [React Native](https://facebook.github.io/react-native/) using [TypeScript](https://www.typescriptlang.org/). This repository contains a bunch of pull requests documenting and implementing the process of how to create a React Native application with different features.
 
@@ -8,8 +8,8 @@ React Native lets you build mobile apps using only JavaScript. It uses the same 
 
 List of pull requests:
 
-* [How to create a React Native application.](https://github.com/pedrovgs/ReactNativePlayground/pull/1)
-* [How to configure Travis CI.](https://github.com/pedrovgs/ReactNativePlayground/pull/2)
+* [How to create a React Native application.](https://github.com/Karumi/ReactNativePlayground/pull/1)
+* [How to configure Travis CI.](https://github.com/Karumi/ReactNativePlayground/pull/2)
 * [How to add Typescript and Jest support](https://github.com/Karumi/ReactNativePlayground/pull/3)
 
 ## How to run this app
