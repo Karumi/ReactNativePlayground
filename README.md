@@ -16,6 +16,7 @@ List of pull requests:
 * [Configure a Native Base library and create our own components.](https://github.com/Karumi/ReactNativePlayground/pull/6)
 * [App localization.](https://github.com/Karumi/ReactNativePlayground/pull/7)
 * [Remote debugging.](https://github.com/Karumi/ReactNativePlayground/pull/8)
+* [Using static assets.](https://github.com/Karumi/ReactNativePlayground/pull/9)
 
 ## How to run this app
 
