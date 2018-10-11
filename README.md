@@ -17,6 +17,7 @@ List of pull requests:
 * [App localization.](https://github.com/Karumi/ReactNativePlayground/pull/7)
 * [Remote debugging.](https://github.com/Karumi/ReactNativePlayground/pull/8)
 * [Using static assets.](https://github.com/Karumi/ReactNativePlayground/pull/9)
+* [Navigation between screens.](https://github.com/Karumi/ReactNativePlayground/pull/10)
 
 ## How to run this app
 
@@ -48,6 +49,8 @@ Our react-native application code can be inspected during the code execution usi
 
 ![debug](./art/debug.png)
 
+The debugger UI will always be available for you from [this link](http://localhost:19001/debugger-ui/).
+
 If for any reason, the ``expo`` debug menu does not work when using ``CMD + D`` shorcut, you can try to change the device from the ``Simulator > Hardware > Device`` menu.
 
 If you need to inspect the nodes in your react UI you can run ``yarn react-devtools`` and this will open an electorn app you can use to inspect your view hierarchy.
@@ -55,6 +58,8 @@ If you need to inspect the nodes in your react UI you can run ``yarn react-devto
 When talking about the app state. You can always open the ``Redux`` tab in your Chrome inspector and this will let you review all the actions thrown and review the app state as you can do with a recular react web application.
 
 **You can always add some ``console.log`` or ``console.error`` traces and this will be shown to the developer as part of the ``expo`` UI and the Chrome inspector console.**
+
+***If for some reason your app deploy fails on the real device you are using to test your app because of a timeout exception, check if your laptop and the device you are using are in the same network twice. This error is shown just when the expo IP is not reachable.***
 
 License
 -------
