@@ -52,6 +52,7 @@ If you need to inspect the nodes in your react UI you can run ``yarn react-devto
 
 When talking about the app state. You can always open the ``Redux`` tab in your Chrome inspector and this will let you review all the actions thrown and review the app state as you can do with a recular react web application.
 
+**You can always add some ``console.log`` or ``console.error`` traces and this will be shown to the developer as part of the ``expo`` UI and the Chrome inspector console.**
 
 License
 -------
