@@ -6,6 +6,6 @@ const i18n = { default: en };
 
 jest.mock("../i18n", () => {
 return {
-        default: new I18nResolver(i18n,  "en").translation,
+        default: () => new I18nResolver(i18n,  "en").translation,
     };
 } );
