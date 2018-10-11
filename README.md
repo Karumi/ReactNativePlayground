@@ -27,6 +27,16 @@ Expo has a menu you can open from the iOS/Android emulator by pressing ``CMD + D
 
 ![expomenu](./art/expoMenu.png)
 
+## Running tests
+
+We've added some tests to our playground so you can use the following commands to run our test cases:
+
+```
+yarn test # Runs every test
+yarn testWatching # Starts a jest watcher running the tests just for the code you've changed.
+yarn updateSnapshots # Updates all the snapshots recorded using jest.
+```
+
 
 License
 -------
