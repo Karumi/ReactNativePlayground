@@ -40,6 +40,19 @@ yarn testWatching # Starts a jest watcher running the tests just for the code yo
 yarn updateSnapshots # Updates all the snapshots recorded using jest.
 ```
 
+## Debugging
+
+Our react-native application code can be inspected during the code execution using the Chrome DevTools app you've installed in your chrome browser. To start debugging the app you only need to open the ``expo`` debug menu by pressing ``CMD + D`` when the device up and running. Then you can press the button ``Start remote debugging`` and this will start a Chrome tab you can use to inspect your code, add breakpoints, evaluate js code and perform many many other debugging tasks:
+
+![debug](./art/debug.png)
+
+If for any reason, the ``expo`` debug menu does not work when using ``CMD + D`` shorcut, you can try to change the device from the ``Simulator > Hardware > Device`` menu.
+
+If you need to inspect the nodes in your react UI you can run ``yarn react-devtools`` and this will open an electorn app you can use to inspect your view hierarchy.
+
+When talking about the app state. You can always open the ``Redux`` tab in your Chrome inspector and this will let you review all the actions thrown and review the app state as you can do with a recular react web application.
+
+**You can always add some ``console.log`` or ``console.error`` traces and this will be shown to the developer as part of the ``expo`` UI and the Chrome inspector console.**
 
 License
 -------
