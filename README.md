@@ -10,8 +10,9 @@ List of pull requests:
 
 * [How to create a React Native application.](https://github.com/Karumi/ReactNativePlayground/pull/1)
 * [How to configure Travis CI.](https://github.com/Karumi/ReactNativePlayground/pull/2)
-* [How to add Typescript and Jest support](https://github.com/Karumi/ReactNativePlayground/pull/3)
-* [Configure a crash reporter tool (Sentry)](https://github.com/Karumi/ReactNativePlayground/pull/4)
+* [How to add Typescript and Jest support.](https://github.com/Karumi/ReactNativePlayground/pull/3)
+* [Configure a crash reporter tool (Sentry).](https://github.com/Karumi/ReactNativePlayground/pull/4)
+* [Configure a splash screen.](https://github.com/Karumi/ReactNativePlayground/pull/5)
 
 ## How to run this app
 
