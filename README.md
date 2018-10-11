@@ -10,9 +10,10 @@ List of pull requests:
 
 * [How to create a React Native application.](https://github.com/Karumi/ReactNativePlayground/pull/1)
 * [How to configure Travis CI.](https://github.com/Karumi/ReactNativePlayground/pull/2)
-* [How to add Typescript and Jest support.](https://github.com/Karumi/ReactNativePlayground/pull/3)
-* [Configure a crash reporter tool (Sentry).](https://github.com/Karumi/ReactNativePlayground/pull/4)
+* [How to add Typescript and Jest support](https://github.com/Karumi/ReactNativePlayground/pull/3)
+* [Configure a crash reporter tool (Sentry)](https://github.com/Karumi/ReactNativePlayground/pull/4)
 * [Configure a splash screen.](https://github.com/Karumi/ReactNativePlayground/pull/5)
+* [Configure a Native Base library and create our own components.](https://github.com/Karumi/ReactNativePlayground/pull/6)
 
 ## How to run this app
 
@@ -27,6 +28,16 @@ Once you get the app up and running, you'll be able to change anything in your a
 Expo has a menu you can open from the iOS/Android emulator by pressing ``CMD + D`` or shaking your device. It looks like this:
 
 ![expomenu](./art/expoMenu.png)
+
+## Running tests
+
+We've added some tests to our playground so you can use the following commands to run our test cases:
+
+```
+yarn test # Runs every test
+yarn testWatching # Starts a jest watcher running the tests just for the code you've changed.
+yarn updateSnapshots # Updates all the snapshots recorded using jest.
+```
 
 
 License

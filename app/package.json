@@ -8,13 +8,16 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "lint": "eslint . && tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "fixLint": "eslint --fix . && tslint -c tslint.json 'src/**/*.{ts,tsx}' --fix",
     "clean": "rimraf artifacts",
     "test": "jest",
     "testWatching": "jest --watch",
-    "fixLint": "eslint --fix . && tslint -c tslint.json 'src/**/*.{ts,tsx}' --fix"
+    "updateSnapshots": "jest --updateSnapshot"
   },
   "dependencies": {
+    "@expo/vector-icons": "^8.0.0",
     "expo": "^30.0.1",
+    "native-base": "^2.8.1",
     "react": "16.3.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
     "sentry-expo": "^1.10.0",
@@ -60,7 +63,7 @@
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "transformIgnorePatterns": [
-      "node_modules/(?!(expo-react-native-adapter|react-native|lottie-react-native|expo|react-native-maps|react-native-svg|react-native-branch|native-base-shoutem-theme|react-native-easy-grid|react-native-drawer|react-native-vector-icons|react-native-keyboard-aware-scroll-view|react-navigation|native-base|@expo|react-native-scrollable-tab-view)/)"
+      "node_modules/(?!(expo-react-native-adapter|react-native-iphone-x-helper|native-base|react-native|lottie-react-native|expo|react-native-maps|react-native-svg|react-native-branch|native-base-shoutem-theme|react-native-easy-grid|react-native-drawer|react-native-vector-icons|react-native-keyboard-aware-scroll-view|react-navigation|native-base|@expo|react-native-scrollable-tab-view)/)"
     ]
   }
 }

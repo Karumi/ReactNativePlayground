@@ -1,23 +1,15 @@
+import { Container } from "native-base";
 import * as React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { Text } from "react-native";
+import Toolbar from "./base-components/Toolbar";
 
 export default class App extends React.Component {
   public render() {
     return (
-      <View style={styles.container}>
+      <Container>
+        <Toolbar/>
         <Text>Open up App.js to start working on your app usign Typescript and Jest!</Text>
-      </View>
+      </Container>
     );
   }
 }
-
-const defaultBackgroundColor = "#FFF";
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: defaultBackgroundColor,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});

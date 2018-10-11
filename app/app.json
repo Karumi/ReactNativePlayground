@@ -26,6 +26,9 @@
     "android": {
       "package": "com.karumi.reactnativeplayground"
     },
+    "androidStatusBar": {
+        "barStyle": "light-content"
+    },
     "packagerOpts": {
       "assetExts": [
         "ttf",
