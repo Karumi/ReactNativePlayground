@@ -10,70 +10,13 @@ exports[`renders correctly with defaults 1`] = `
     }
   }
 >
-  <View
-    onLayout={[Function]}
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "#F8F8F8",
-          "borderBottomColor": "#a7a6ab",
-          "borderBottomWidth": 0.5,
-          "elevation": 3,
-          "flexDirection": "row",
-          "height": 64,
-          "justifyContent": "center",
-          "left": 0,
-          "paddingLeft": 6,
-          "paddingRight": 10,
-          "paddingTop": 18,
-          "right": 0,
-          "shadowColor": undefined,
-          "shadowOffset": undefined,
-          "shadowOpacity": undefined,
-          "shadowRadius": undefined,
-          "top": 0,
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "alignSelf": "center",
-            "flex": 1,
-          }
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          numberOfLines={1}
-          style={
-            Object {
-              "color": "#000",
-              "fontFamily": "System",
-              "fontSize": 17,
-              "fontWeight": "700",
-              "marginLeft": undefined,
-              "paddingLeft": 4,
-              "paddingTop": 1,
-              "textAlign": "center",
-            }
-          }
-        >
-          React Native Playground
-        </Text>
-      </View>
-    </View>
-  </View>
+  <Toolbar />
   <Text
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
   >
-    Open up App.js to start working on your app usign Typescript and Jest
+    Open up App.js to start working on your app usign Typescript and Jest!
   </Text>
 </View>
 `;

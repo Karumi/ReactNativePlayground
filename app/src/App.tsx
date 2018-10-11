@@ -8,7 +8,7 @@ export default class App extends React.Component {
     return (
       <Container>
         <Toolbar/>
-        <Text>Open up App.js to start working on your app usign Typescript and Jest</Text>
+        <Text>Open up App.js to start working on your app usign Typescript and Jest!</Text>
       </Container>
     );
   }
