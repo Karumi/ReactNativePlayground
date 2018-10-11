@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app",
-    "description": "This project is really great.",
+    "name": "ReactNative Playground",
+    "description": "Project used to learn React.",
     "slug": "app",
     "privacy": "public",
     "sdkVersion": "30.0.0",
@@ -10,9 +10,9 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#e2e2e2"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,6 +22,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.karumi.reactnativeplayground"
     },
     "packagerOpts": {
       "assetExts": [
