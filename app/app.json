@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app",
-    "description": "This project is really great.",
+    "name": "ReactNative Playground",
+    "description": "Project used to learn React.",
     "slug": "app",
     "privacy": "public",
     "sdkVersion": "30.0.0",
