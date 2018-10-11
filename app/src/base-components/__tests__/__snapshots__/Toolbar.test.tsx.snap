@@ -54,7 +54,7 @@ exports[`renders correctly with defaults 1`] = `
           }
         }
       >
-        React Native Playground
+        React Native Playground EN
       </Text>
     </View>
   </View>

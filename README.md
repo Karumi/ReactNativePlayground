@@ -14,6 +14,7 @@ List of pull requests:
 * [Configure a crash reporter tool (Sentry).](https://github.com/Karumi/ReactNativePlayground/pull/4)
 * [Configure a splash screen.](https://github.com/Karumi/ReactNativePlayground/pull/5)
 * [Configure a Native Base library and create our own components.](https://github.com/Karumi/ReactNativePlayground/pull/6)
+* [App localization.](https://github.com/Karumi/ReactNativePlayground/pull/7)
 
 ## How to run this app
 
