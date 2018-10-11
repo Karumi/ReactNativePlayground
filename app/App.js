@@ -9,7 +9,7 @@ class ReactNativePlaygroundApp extends React.Component {
         this.state = { loading: true };
     }
 
-    async componentWillMount() {
+    async UNSAFE_componentWillMount() {
         this.initializeSentry();
         await this.initializeNativeBaseFonts();
         this.setState({ loading: false });
