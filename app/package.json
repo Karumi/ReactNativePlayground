@@ -14,7 +14,9 @@
     "fixLint": "eslint --fix . && tslint -c tslint.json 'src/**/*.{ts,tsx}' --fix"
   },
   "dependencies": {
+    "@expo/vector-icons": "^8.0.0",
     "expo": "^30.0.1",
+    "native-base": "^2.8.1",
     "react": "16.3.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
     "sentry-expo": "^1.10.0",
