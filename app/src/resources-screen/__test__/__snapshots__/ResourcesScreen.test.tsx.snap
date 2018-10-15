@@ -11,6 +11,7 @@ exports[`renders correctly with defaults 1`] = `
   }
 >
   <Toolbar
+    navigation={[MockFunction]}
     showBackButton={true}
     title="Resources"
   />
