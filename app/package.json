@@ -11,8 +11,9 @@
     "fixLint": "eslint --fix . && tslint -c tslint.json 'src/**/*.{ts,tsx}' --fix",
     "clean": "rimraf artifacts",
     "test": "jest",
-    "testWatching": "jest --watch",
-    "updateSnapshots": "jest --updateSnapshot"
+    "testWatching": "yarn test --watch",
+    "updateSnapshots": "yarn test --updateSnapshot",
+    "coverage": "yarn test --coverage"
   },
   "dependencies": {
     "@expo/vector-icons": "^8.0.0",
@@ -64,6 +65,7 @@
       "tsx",
       "js"
     ],
+    "collectCoverage": true,
     "transform": {
       "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
