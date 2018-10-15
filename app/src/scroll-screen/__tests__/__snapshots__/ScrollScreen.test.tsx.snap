@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Toolbar
+    navigation={[MockFunction]}
+    showBackButton={true}
+    title="Scroll"
+  />
+</View>
+`;

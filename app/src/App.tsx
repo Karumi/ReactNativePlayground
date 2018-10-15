@@ -3,6 +3,7 @@ import ListScreen from "./list-screen/ListScreen";
 import MainScreen from "./main-screen/MainScreen";
 import NavigationScreen from "./navigation-screen/NavigationScreen";
 import ResourcesScreen from "./resources-screen/ResourcesScreen";
+import ScrollScreen from "./scroll-screen/ScrollScreen";
 
 const MainStack = createStackNavigator({
   Home: {
@@ -22,6 +23,11 @@ const MainStack = createStackNavigator({
   },
   ListOfComponents: {
     screen: ListScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  ScrollViewComponent: {
+    screen: ScrollScreen, navigationOptions: {
       header: null,
     },
   },

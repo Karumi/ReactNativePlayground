@@ -5,6 +5,7 @@ const en = {
     reduxScreenTitle: "Redux",
     layoutsScreenTitle: "Layouts",
     listScreenTitle: "List",
+    scrollScreenTitle: "Scroll",
     openResourcesScreenButton: "Open resources screen",
     goBackButton: "Go back",
     openDialogButton: "Open dialog",
