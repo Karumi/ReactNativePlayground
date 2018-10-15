@@ -32,6 +32,7 @@ Once you get the app up and running, you'll be able to change anything in your a
 Expo has a menu you can open from the iOS/Android emulator by pressing ``CMD + D`` or shaking your device. It looks like this:
 
 ![expomenu](./art/expoMenu.png)
+<img src="./art/expoMenu.png" alt="expo menu" height="200"/>
 
 ## Running tests
 
@@ -41,6 +42,7 @@ We've added some tests to our playground so you can use the following commands t
 yarn test # Runs every test
 yarn testWatching # Starts a jest watcher running the tests just for the code you've changed.
 yarn updateSnapshots # Updates all the snapshots recorded using jest.
+yarn coverage # Runs every test and shows a small coverage report.
 ```
 
 ## Debugging
