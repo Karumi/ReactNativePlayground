@@ -22,6 +22,8 @@ exports[`renders correctly with a text param passed as argument 1`] = `
           ],
           "results": undefined,
         },
+        "navigate": [MockFunction],
+        "pop": [MockFunction],
       }
     }
     showBackButton={true}

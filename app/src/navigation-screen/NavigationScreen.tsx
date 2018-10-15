@@ -1,6 +1,6 @@
 import { Button, Container, Text } from "native-base";
 import * as React from "react";
-import { Alert } from "react-native";
+import showAlertDialog from "../base-components/alert-dialog/alert";
 import Toolbar from "../base-components/toolbar/Toolbar";
 import translator from "../i18n";
 import screens from "../screens";
@@ -43,7 +43,7 @@ class NavigationScreen extends React.Component<Props> {
     }
 
     private showDialog() {
-        Alert.alert(
+        showAlertDialog(
             translator().alertDialogTitle,
             translator().alertDialogSubtitle,
             [
