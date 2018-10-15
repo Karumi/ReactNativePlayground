@@ -17,7 +17,8 @@ class ResourcesScreen extends React.Component<Props> {
                     navigation={this.props.navigation}
                     showBackButton={true}
                 />
-                <Image source={assets.arrow} />
+                <Image source={assets.anyAsset} style={{ height: 200, width: 200 }} />
+                <Image source={assets.arrow} style={{ height: 20, width: 20}} />
             </Container>
         );
     }

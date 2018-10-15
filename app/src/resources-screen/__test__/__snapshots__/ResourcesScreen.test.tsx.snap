@@ -16,7 +16,22 @@ exports[`renders correctly with defaults 1`] = `
     title="Resources"
   />
   <Image
+    source="any-asset"
+    style={
+      Object {
+        "height": 200,
+        "width": 200,
+      }
+    }
+  />
+  <Image
     source="arrow"
+    style={
+      Object {
+        "height": 20,
+        "width": 20,
+      }
+    }
   />
 </View>
 `;

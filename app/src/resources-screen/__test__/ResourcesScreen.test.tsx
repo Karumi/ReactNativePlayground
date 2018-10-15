@@ -7,6 +7,7 @@ jest.mock("../images/assets", () => {
     return {
         default: {
             arrow: "arrow",
+            anyAsset: "any-asset",
         },
     };
 });
