@@ -18,16 +18,16 @@ class NavigationScreen extends React.Component<Props> {
                     showBackButton={true}
                 />
                 <Button style={{ margin: 10 }} onPress={() => this.open(screens.resources)}>
-                    <Text>Open resources screen</Text>
+                    <Text>{translator().openResourcesScreenButton}</Text>
                 </Button>
                 <Button style={{ margin: 10 }} onPress={() => this.goBack()}>
-                    <Text>Go back</Text>
+                    <Text>{translator().goBackButton}</Text>
                 </Button>
                 <Button style={{ margin: 10 }} onPress={() => this.showDialog()}>
-                    <Text>Open dialog</Text>
+                    <Text>{translator().openDialogButton}</Text>
                 </Button>
                 <Button style={{ margin: 10 }}>
-                    <Text>Open modal screen</Text>
+                    <Text>{translator().openModalScreenButton}</Text>
                 </Button>
             </Container>
         );
@@ -43,12 +43,21 @@ class NavigationScreen extends React.Component<Props> {
 
     private showDialog() {
         Alert.alert(
-            "Alert Title",
-            "My Alert Msg",
+            translator().alertDialogTitle,
+            translator().alertDialogSubtitle,
             [
-                { text: "Ask me later", onPress: () => alert("Ask me later pressed") },
-                { text: "Cancel", onPress: () => alert("Cancel Pressed"), style: "cancel" },
-                { text: "OK", onPress: () => alert("OK Pressed") },
+                {
+                    text: translator().thirdButtonAlertDialogTitle,
+                    onPress: () => alert(translator().thirdButtonAlertDialogTitle),
+                },
+                {
+                    text: translator().secondButtonAlertDialogTitle,
+                    onPress: () => alert(translator().secondButtonAlertDialogTitle), style: "cancel",
+                },
+                {
+                    text: translator().firstButtonAlertDialogTitle,
+                    onPress: () => alert(translator().firstButtonAlertDialogTitle),
+                },
             ],
             { cancelable: false },
         );
