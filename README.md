@@ -20,6 +20,7 @@ List of pull requests:
 * [Navigation between screens.](https://github.com/Karumi/ReactNativePlayground/pull/10)
 * [List component.](https://github.com/Karumi/ReactNativePlayground/pull/11)
 * [Scroll component.](https://github.com/Karumi/ReactNativePlayground/pull/12)
+* [Grid component.](https://github.com/Karumi/ReactNativePlayground/pull/13)
 
 ## How to run this app
 

@@ -36,6 +36,10 @@ class MainScreen extends React.Component<Props> {
                         <Text>{translator().scrollScreenTitle}</Text>
                         {arrowForward}
                     </CardItem>
+                    <CardItem button onPress={() => navigate(screens.grid)}>
+                        <Text>{translator().gridScreenTitle}</Text>
+                        {arrowForward}
+                    </CardItem>
                     <CardItem button onPress={() => navigate(screens.redux)}>
                         <Text>{translator().reduxScreenTitle}</Text>
                         {arrowForward}

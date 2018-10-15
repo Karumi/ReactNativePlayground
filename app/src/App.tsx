@@ -1,4 +1,5 @@
 import { createStackNavigator } from "react-navigation";
+import GridScreen from "./grid-screen/GridScreen";
 import ListScreen from "./list-screen/ListScreen";
 import MainScreen from "./main-screen/MainScreen";
 import NavigationScreen from "./navigation-screen/NavigationScreen";
@@ -28,6 +29,11 @@ const MainStack = createStackNavigator({
   },
   ScrollViewComponent: {
     screen: ScrollScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  GridViewComponent: {
+    screen: GridScreen, navigationOptions: {
       header: null,
     },
   },
