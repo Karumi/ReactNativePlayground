@@ -12,8 +12,7 @@
     "clean": "rimraf artifacts",
     "test": "jest",
     "testWatching": "yarn test --watch",
-    "updateSnapshots": "yarn test --updateSnapshot",
-    "coverage": "yarn test --coverage"
+    "updateSnapshots": "yarn test --updateSnapshot"
   },
   "dependencies": {
     "@expo/vector-icons": "^8.0.0",
