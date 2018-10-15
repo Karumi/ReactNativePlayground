@@ -19,6 +19,7 @@ List of pull requests:
 * [Using static assets.](https://github.com/Karumi/ReactNativePlayground/pull/9)
 * [Navigation between screens.](https://github.com/Karumi/ReactNativePlayground/pull/10)
 * [List component.](https://github.com/Karumi/ReactNativePlayground/pull/11)
+* [Scroll component.](https://github.com/Karumi/ReactNativePlayground/pull/12)
 
 ## How to run this app
 
