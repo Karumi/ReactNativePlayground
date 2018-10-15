@@ -2,6 +2,6 @@
 
 exports[`renders correctly with defaults 1`] = `
 <Image
-  source="./images/arrow.png"
+  source="arrow"
 />
 `;

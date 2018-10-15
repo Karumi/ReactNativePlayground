@@ -11,12 +11,6 @@ exports[`renders correctly with defaults 1`] = `
   }
 >
   <Toolbar />
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
-    Open up App.js to start working on your app usign Typescript and Jest!
-  </Text>
+  <MainScreen />
 </View>
 `;

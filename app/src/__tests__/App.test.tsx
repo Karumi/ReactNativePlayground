@@ -8,6 +8,12 @@ jest.mock("../base-components/Toolbar", () => {
     };
 } );
 
+jest.mock("../main-screen/MainScreen", () => {
+    return {
+        default: "MainScreen",
+    };
+});
+
 it("renders correctly with defaults", () => {
     const app = renderer.create(<App />).toJSON();
     expect(app).toMatchSnapshot();
