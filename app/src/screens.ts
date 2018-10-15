@@ -5,6 +5,7 @@ const screens = {
     layouts: "Layouts",
     navigationModal: "NavigationModalScreen",
     list: "ListOfComponents",
+    scroll: "ScrollViewComponent",
 };
 
 export default screens;
