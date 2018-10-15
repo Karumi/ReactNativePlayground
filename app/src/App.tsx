@@ -1,15 +1,18 @@
-import { Container } from "native-base";
-import * as React from "react";
-import Toolbar from "./base-components/Toolbar";
+import { createStackNavigator } from "react-navigation";
 import MainScreen from "./main-screen/MainScreen";
+import ResourcesScreen from "./resources-screen/ResourcesScreen";
 
-export default class App extends React.Component {
-  public render() {
-    return (
-      <Container>
-        <Toolbar />
-        <MainScreen />
-      </Container>
-    );
-  }
-}
+const app = createStackNavigator({
+  Home: {
+    screen: MainScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  Resources: {
+    screen: ResourcesScreen, navigationOptions: {
+      header: null,
+    },
+  },
+});
+
+export default app;

@@ -29,11 +29,31 @@ exports[`renders correctly with defaults 1`] = `
   >
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "alignSelf": "center",
-          "flex": 1,
-        }
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "alignSelf": "center",
+            "flex": 1,
+          },
+          Object {
+            "flex": 0,
+            "paddingLeft": 0,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "flex": 1,
+          },
+          Object {
+            "left": 0,
+          },
+        ]
       }
     >
       <Text

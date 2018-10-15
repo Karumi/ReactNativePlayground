@@ -10,7 +10,12 @@ exports[`renders correctly with defaults 1`] = `
     }
   }
 >
-  <Toolbar />
-  <MainScreen />
+  <Toolbar
+    showBackButton={true}
+    title="Resources"
+  />
+  <Image
+    source="arrow"
+  />
 </View>
 `;

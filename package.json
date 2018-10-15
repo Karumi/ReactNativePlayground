@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@types/react-navigation": "^2.0.24"
+  }
+}
