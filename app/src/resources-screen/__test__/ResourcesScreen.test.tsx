@@ -19,6 +19,6 @@ jest.mock("../../base-components/toolbar/Toolbar", () => {
 });
 
 it("renders correctly with defaults", () => {
-    const toolbar = renderer.create(<ResourcesScreen navigation={jest.fn()}/>).toJSON();
-    expect(toolbar).toMatchSnapshot();
+    const screen = renderer.create(<ResourcesScreen navigation={jest.fn()}/>).toJSON();
+    expect(screen).toMatchSnapshot();
 });
