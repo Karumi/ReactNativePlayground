@@ -3,6 +3,7 @@ const screens = {
     navigation: "Navigation",
     redux: "Redux",
     layouts: "Layouts",
+    navigationModal: "NavigationModalScreen",
 };
 
 export default screens;

@@ -26,9 +26,10 @@ class NavigationScreen extends React.Component<Props> {
                 <Button style={{ margin: 10 }} onPress={() => this.showDialog()}>
                     <Text>{translator().openDialogButton}</Text>
                 </Button>
-                <Button style={{ margin: 10 }}>
+                <Button style={{ margin: 10 }} onPress={() => this.openModal()}>
                     <Text>{translator().openModalScreenButton}</Text>
                 </Button>
+                <Text>{this.props.navigation.getParam("text", "")}</Text>
             </Container>
         );
     }
@@ -61,6 +62,12 @@ class NavigationScreen extends React.Component<Props> {
             ],
             { cancelable: false },
         );
+    }
+
+    private openModal() {
+        this.props.navigation.navigate(screens.navigationModal, {
+            text: translator().modalModeTitle,
+        });
     }
 }
 

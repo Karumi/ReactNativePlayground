@@ -13,6 +13,7 @@ const en = {
     thirdButtonAlertDialogTitle: "Ask me later",
     secondButtonAlertDialogTitle: "Cancel",
     firstButtonAlertDialogTitle: "OK",
+    modalModeTitle: "Modal Mode",
 };
 
 export default en;

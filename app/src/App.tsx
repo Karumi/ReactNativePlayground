@@ -3,7 +3,7 @@ import MainScreen from "./main-screen/MainScreen";
 import NavigationScreen from "./navigation-screen/NavigationScreen";
 import ResourcesScreen from "./resources-screen/ResourcesScreen";
 
-const app = createStackNavigator({
+const MainStack = createStackNavigator({
   Home: {
     screen: MainScreen, navigationOptions: {
       header: null,
@@ -21,4 +21,18 @@ const app = createStackNavigator({
   },
 });
 
-export default app;
+const RootStack = createStackNavigator(
+  {
+    Main: {
+      screen: MainStack,
+    },
+    NavigationModalScreen: {
+      screen: NavigationScreen,
+    },
+  },
+  {
+    mode: "modal",
+    headerMode: "none",
+  },
+);
+export default RootStack;
