@@ -18,6 +18,7 @@ List of pull requests:
 * [Remote debugging.](https://github.com/Karumi/ReactNativePlayground/pull/8)
 * [Using static assets.](https://github.com/Karumi/ReactNativePlayground/pull/9)
 * [Navigation between screens.](https://github.com/Karumi/ReactNativePlayground/pull/10)
+* [List component.](https://github.com/Karumi/ReactNativePlayground/pull/11)
 
 ## How to run this app
 
