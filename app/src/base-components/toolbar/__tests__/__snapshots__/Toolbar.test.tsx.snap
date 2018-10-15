@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`overrides the default app title if the title prop is configured 1`] = `
+<View
+  onLayout={[Function]}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F8F8F8",
+        "borderBottomColor": "#a7a6ab",
+        "borderBottomWidth": 0.5,
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 64,
+        "justifyContent": "center",
+        "left": 0,
+        "paddingLeft": 6,
+        "paddingRight": 10,
+        "paddingTop": 18,
+        "right": 0,
+        "shadowColor": undefined,
+        "shadowOffset": undefined,
+        "shadowOpacity": undefined,
+        "shadowRadius": undefined,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "alignSelf": "center",
+            "flex": 1,
+          },
+          Object {
+            "flex": 0,
+            "paddingLeft": 0,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "flex": 1,
+          },
+          Object {
+            "left": 0,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 17,
+            "fontWeight": "700",
+            "marginLeft": undefined,
+            "paddingLeft": 4,
+            "paddingTop": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        TEST TITLE
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  onLayout={[Function]}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F8F8F8",
+        "borderBottomColor": "#a7a6ab",
+        "borderBottomWidth": 0.5,
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 64,
+        "justifyContent": "center",
+        "left": 0,
+        "paddingLeft": 6,
+        "paddingRight": 10,
+        "paddingTop": 18,
+        "right": 0,
+        "shadowColor": undefined,
+        "shadowOffset": undefined,
+        "shadowOpacity": undefined,
+        "shadowRadius": undefined,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "alignSelf": "center",
+            "flex": 1,
+          },
+          Object {
+            "flex": 0,
+            "paddingLeft": 0,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "flex": 1,
+          },
+          Object {
+            "left": 0,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 17,
+            "fontWeight": "700",
+            "marginLeft": undefined,
+            "paddingLeft": 4,
+            "paddingTop": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        React Native Playground EN
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders in back button mode if the showBackButton property is true 1`] = `
+<View
+  onLayout={[Function]}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F8F8F8",
+        "borderBottomColor": "#a7a6ab",
+        "borderBottomWidth": 0.5,
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 64,
+        "justifyContent": "center",
+        "left": 0,
+        "paddingLeft": 6,
+        "paddingRight": 10,
+        "paddingTop": 18,
+        "right": 0,
+        "shadowColor": undefined,
+        "shadowOffset": undefined,
+        "shadowOpacity": undefined,
+        "shadowRadius": undefined,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "alignSelf": "center",
+            "flex": 1,
+          },
+          Object {
+            "flex": 0,
+            "paddingLeft": 0,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": null,
+            "backgroundColor": "transparent",
+            "borderBottomWidth": null,
+            "borderColor": null,
+            "borderLeftWidth": null,
+            "borderRadius": 5,
+            "borderRightWidth": null,
+            "borderTopWidth": null,
+            "borderWidth": undefined,
+            "elevation": 0,
+            "flexDirection": "row",
+            "height": 45,
+            "justifyContent": "space-between",
+            "marginLeft": -3,
+            "opacity": 1,
+            "paddingBottom": 6,
+            "paddingLeft": 4,
+            "paddingRight": 6,
+            "paddingTop": 6,
+            "shadowColor": null,
+            "shadowOffset": null,
+            "shadowOpacity": null,
+            "shadowRadius": null,
+          }
+        }
+      >
+        <Image
+          source="arrowBack"
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "flex": 1,
+          },
+          Object {
+            "left": -12,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 17,
+            "fontWeight": "700",
+            "marginLeft": undefined,
+            "paddingLeft": 4,
+            "paddingTop": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        React Native Playground EN
+      </Text>
+    </View>
+  </View>
+</View>
+`;

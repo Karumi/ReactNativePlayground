@@ -1,15 +1,38 @@
-import { Container } from "native-base";
-import * as React from "react";
-import { Text } from "react-native";
-import Toolbar from "./base-components/Toolbar";
+import { createStackNavigator } from "react-navigation";
+import MainScreen from "./main-screen/MainScreen";
+import NavigationScreen from "./navigation-screen/NavigationScreen";
+import ResourcesScreen from "./resources-screen/ResourcesScreen";
 
-export default class App extends React.Component {
-  public render() {
-    return (
-      <Container>
-        <Toolbar/>
-        <Text>Open up App.js to start working on your app usign Typescript and Jest!</Text>
-      </Container>
-    );
-  }
-}
+const MainStack = createStackNavigator({
+  Home: {
+    screen: MainScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  Resources: {
+    screen: ResourcesScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  Navigation: {
+    screen: NavigationScreen, navigationOptions: {
+      header: null,
+    },
+  },
+});
+
+const RootStack = createStackNavigator(
+  {
+    Main: {
+      screen: MainStack,
+    },
+    NavigationModalScreen: {
+      screen: NavigationScreen,
+    },
+  },
+  {
+    mode: "modal",
+    headerMode: "none",
+  },
+);
+export default RootStack;
