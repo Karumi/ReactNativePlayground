@@ -1,4 +1,5 @@
 import { createStackNavigator } from "react-navigation";
+import ListScreen from "./list-screen/ListScreen";
 import MainScreen from "./main-screen/MainScreen";
 import NavigationScreen from "./navigation-screen/NavigationScreen";
 import ResourcesScreen from "./resources-screen/ResourcesScreen";
@@ -16,6 +17,11 @@ const MainStack = createStackNavigator({
   },
   Navigation: {
     screen: NavigationScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  ListOfComponents: {
+    screen: ListScreen, navigationOptions: {
       header: null,
     },
   },

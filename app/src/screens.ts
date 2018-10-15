@@ -4,6 +4,7 @@ const screens = {
     redux: "Redux",
     layouts: "Layouts",
     navigationModal: "NavigationModalScreen",
+    list: "ListOfComponents",
 };
 
 export default screens;

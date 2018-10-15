@@ -4,6 +4,7 @@ const es = {
     navigationScreenTitle: "Navegación",
     reduxScreenTitle: "Redux",
     layoutsScreenTitle: "Layouts",
+    listScreenTitle: "Listado",
     openResourcesScreenButton: "Abrir pantalla de recursos",
     goBackButton: "Volver",
     openDialogButton: "Abrir diálogo",
