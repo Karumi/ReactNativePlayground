@@ -6103,6 +6103,13 @@ react-native-maps@0.21.0:
     babel-plugin-module-resolver "^2.3.0"
     babel-preset-react-native "1.9.0"
 
+react-native-maps@^0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.22.0.tgz#0e675120fa6a8b2459ac819edd6be968d07568df"
+  dependencies:
+    babel-plugin-module-resolver "^2.3.0"
+    babel-preset-react-native "1.9.0"
+
 react-native-reanimated@1.0.0-alpha.6:
   version "1.0.0-alpha.6"
   resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.0.0-alpha.6.tgz#169d23b3b39d1c88e509ddc97027b1c8cc066da8"

@@ -9,6 +9,7 @@ const screens = {
     grid: "GridViewComponent",
     camera: "CameraComponent",
     imagePicker: "ImagePickerComponent",
+    mapScreen: "MapScreen",
 };
 
 export default screens;

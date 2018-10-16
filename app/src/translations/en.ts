@@ -9,6 +9,7 @@ const en = {
     gridScreenTitle: "Grid",
     cameraScreenTitle: "Camera",
     imagePickerScreenTitle: "Image Picker",
+    mapScreenTitle: "Location & Map",
     openResourcesScreenButton: "Open resources screen",
     goBackButton: "Go back",
     openDialogButton: "Open dialog",

@@ -5,7 +5,10 @@
     "slug": "app",
     "privacy": "public",
     "sdkVersion": "30.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,13 +24,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyD-01AE7GAUv_633XMfDzPRwFc4tMjBkiY"
+      }
     },
     "android": {
-      "package": "com.karumi.reactnativeplayground"
+      "package": "com.karumi.reactnativeplayground",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD-01AE7GAUv_633XMfDzPRwFc4tMjBkiY"
+        }
+      }
     },
     "androidStatusBar": {
-        "barStyle": "light-content"
+      "barStyle": "light-content"
     },
     "packagerOpts": {
       "assetExts": [
@@ -43,14 +54,14 @@
   },
   "hooks": {
     "postPublish": [
-        {
-            "file": "sentry-expo/upload-sourcemaps",
-            "config": {
-                "organization": "pedros-lab",
-                "project": "reactnativeplayground",
-                "authToken": "8dd1dde0cc9911e891314201c0a8d033"
-            }
+      {
+        "file": "sentry-expo/upload-sourcemaps",
+        "config": {
+          "organization": "pedros-lab",
+          "project": "reactnativeplayground",
+          "authToken": "8dd1dde0cc9911e891314201c0a8d033"
         }
+      }
     ]
-}
+  }
 }
