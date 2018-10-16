@@ -6,6 +6,7 @@ const es = {
     layoutsScreenTitle: "Layouts",
     listScreenTitle: "Listado",
     scrollScreenTitle: "Scroll",
+    gridScreenTitle: "Grid",
     openResourcesScreenButton: "Abrir pantalla de recursos",
     goBackButton: "Volver",
     openDialogButton: "Abrir diálogo",

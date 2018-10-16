@@ -6,6 +6,7 @@ const screens = {
     navigationModal: "NavigationModalScreen",
     list: "ListOfComponents",
     scroll: "ScrollViewComponent",
+    grid: "GridViewComponent",
 };
 
 export default screens;
