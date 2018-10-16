@@ -8,6 +8,7 @@ const es = {
     scrollScreenTitle: "Scroll",
     gridScreenTitle: "Grid",
     cameraScreenTitle: "Cámara",
+    imagePickerScreenTitle: "Selector de imágenes",
     openResourcesScreenButton: "Abrir pantalla de recursos",
     goBackButton: "Volver",
     openDialogButton: "Abrir diálogo",
@@ -18,6 +19,8 @@ const es = {
     secondButtonAlertDialogTitle: "Cancelar",
     firstButtonAlertDialogTitle: "Ok",
     modalModeTitle: "Modo Modal",
+    pickImageFromCameraButton: "Selecciona una foto desde la cámara",
+    pickImageFromGalleryButton: "Selecciona una foto desde la galería",
 };
 
 export default es;

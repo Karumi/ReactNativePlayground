@@ -20,7 +20,7 @@ const en = {
     firstButtonAlertDialogTitle: "OK",
     modalModeTitle: "Modal Mode",
     pickImageFromCameraButton: "Pick image from camera",
-    pickImageFromGalleryButton: "Pick image from gallery"
+    pickImageFromGalleryButton: "Pick image from gallery",
 };
 
 export default en;
