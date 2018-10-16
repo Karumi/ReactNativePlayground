@@ -11,6 +11,7 @@ const en = {
     imagePickerScreenTitle: "Image Picker",
     mapScreenTitle: "Location & Map",
     lottieScreenTitle: "Lottie",
+    customComponentScreenTitle: "Custom components per platform",
     openResourcesScreenButton: "Open resources screen",
     goBackButton: "Go back",
     openDialogButton: "Open dialog",

@@ -11,6 +11,7 @@ const screens = {
     imagePicker: "ImagePickerComponent",
     mapScreen: "MapScreen",
     lottieScreen: "LottieScreen",
+    customComponentsScreen: "CustomComponentsScreen",
 };
 
 export default screens;

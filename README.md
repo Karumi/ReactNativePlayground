@@ -25,6 +25,7 @@ List of pull requests:
 * [Image picker.](https://github.com/Karumi/ReactNativePlayground/pull/15)
 * [Location.](https://github.com/Karumi/ReactNativePlayground/pull/16)
 * [Lottie.](https://github.com/Karumi/ReactNativePlayground/pull/17)
+* [Custom components for Android/iOS.](https://github.com/Karumi/ReactNativePlayground/pull/18)
 
 ## How to run this app
 

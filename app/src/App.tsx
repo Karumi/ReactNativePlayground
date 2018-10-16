@@ -1,5 +1,6 @@
 import { createStackNavigator } from "react-navigation";
 import CameraScreen from "./camera-screen/CameraScreen";
+import CustomComponentScreen from "./custom-components-per-platform/CustomComponentScreen";
 import GridScreen from "./grid-screen/GridScreen";
 import ImagePickerScreen from "./image-picker/ImagePickerScreen";
 import ListScreen from "./list-screen/ListScreen";
@@ -58,6 +59,11 @@ const MainStack = createStackNavigator({
   },
   LottieScreen: {
     screen: LottieScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  CustomComponentsScreen: {
+    screen: CustomComponentScreen, navigationOptions: {
       header: null,
     },
   },
