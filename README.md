@@ -50,7 +50,6 @@ We've added some tests to our playground so you can use the following commands t
 yarn test # Runs every test
 yarn testWatching # Starts a jest watcher running the tests just for the code you've changed.
 yarn updateSnapshots # Updates all the snapshots recorded using jest.
-yarn coverage # Runs every test and shows a small coverage report.
 ```
 
 ## Debugging
