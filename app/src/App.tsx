@@ -1,4 +1,5 @@
 import { createStackNavigator } from "react-navigation";
+import CameraScreen from "./camera-screen/CameraScreen";
 import GridScreen from "./grid-screen/GridScreen";
 import ListScreen from "./list-screen/ListScreen";
 import MainScreen from "./main-screen/MainScreen";
@@ -34,6 +35,11 @@ const MainStack = createStackNavigator({
   },
   GridViewComponent: {
     screen: GridScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  CameraComponent: {
+    screen: CameraScreen, navigationOptions: {
       header: null,
     },
   },

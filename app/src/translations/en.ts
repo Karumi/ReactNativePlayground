@@ -7,6 +7,7 @@ const en = {
     listScreenTitle: "List",
     scrollScreenTitle: "Scroll",
     gridScreenTitle: "Grid",
+    cameraScreenTitle: "Camera",
     openResourcesScreenButton: "Open resources screen",
     goBackButton: "Go back",
     openDialogButton: "Open dialog",
