@@ -1,6 +1,7 @@
 import { createStackNavigator } from "react-navigation";
 import CameraScreen from "./camera-screen/CameraScreen";
 import GridScreen from "./grid-screen/GridScreen";
+import ImagePickerScreen from "./image-picker/ImagePickerScreen";
 import ListScreen from "./list-screen/ListScreen";
 import MainScreen from "./main-screen/MainScreen";
 import NavigationScreen from "./navigation-screen/NavigationScreen";
@@ -40,6 +41,11 @@ const MainStack = createStackNavigator({
   },
   CameraComponent: {
     screen: CameraScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  ImagePickerComponent: {
+    screen: ImagePickerScreen, navigationOptions: {
       header: null,
     },
   },
