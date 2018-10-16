@@ -16,6 +16,7 @@ const en = {
     goBackButton: "Go back",
     openDialogButton: "Open dialog",
     openModalScreenButton: "Open modal screen",
+    openScreenWithTransitionButton: "Open modal screen with custom transition",
     alertDialogTitle: "My alert dialog",
     alertDialogSubtitle: "My alert dialog subtitle",
     thirdButtonAlertDialogTitle: "Ask me later",

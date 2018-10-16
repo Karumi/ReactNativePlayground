@@ -1,6 +1,6 @@
 import { Card, CardItem, Container, Text } from "native-base";
 import * as React from "react";
-import { Image } from "react-native";
+import { Image, ScrollView } from "react-native";
 import Toolbar from "../base-components/toolbar/Toolbar";
 import translator from "../i18n";
 import screens from "../screens";
@@ -19,6 +19,7 @@ class MainScreen extends React.Component<Props> {
         return (
             <Container>
                 <Toolbar />
+                <ScrollView>
                 <Card>
                     <CardItem button onPress={() => navigate(screens.resources)}>
                         <Text>{translator().resourcesScreenTitle}</Text>
@@ -69,6 +70,7 @@ class MainScreen extends React.Component<Props> {
                         {arrowForward}
                     </CardItem>
                 </Card>
+                </ScrollView>
             </Container>
         );
     }

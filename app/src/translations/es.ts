@@ -16,6 +16,7 @@ const es = {
     goBackButton: "Volver",
     openDialogButton: "Abrir diálogo",
     openModalScreenButton: "Abrir pantalla modal",
+    openScreenWithTransitionButton: "Open modal screen with custom transition",
     alertDialogTitle: "Dialogo de tipo alerta",
     alertDialogSubitle: "Subtítulo dialogo de tipo alerta",
     thirdButtonAlertDialogTitle: "Preguntar luego",

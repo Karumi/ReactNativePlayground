@@ -29,6 +29,9 @@ class NavigationScreen extends React.Component<Props> {
                 <Button style={{ margin: 10 }} onPress={() => this.openModal()}>
                     <Text>{translator().openModalScreenButton}</Text>
                 </Button>
+                <Button style={{ margin: 10 }} onPress={() => this.openWithTransition(screens.resources)}>
+                    <Text>{translator().openScreenWithTransitionButton}</Text>
+                </Button>
                 <Text>{this.props.navigation.getParam("text", "")}</Text>
             </Container>
         );
@@ -36,6 +39,10 @@ class NavigationScreen extends React.Component<Props> {
 
     private open(screen: string) {
         this.props.navigation.navigate(screen);
+    }
+
+    private openWithTransition(screen: string) {
+        this.props.navigation.navigate(screen, { transition: "collapseExpand" });
     }
 
     private goBack() {
