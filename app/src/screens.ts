@@ -10,6 +10,7 @@ const screens = {
     camera: "CameraComponent",
     imagePicker: "ImagePickerComponent",
     mapScreen: "MapScreen",
+    lottieScreen: "LottieScreen",
 };
 
 export default screens;
