@@ -48,6 +48,10 @@ class MainScreen extends React.Component<Props> {
                         <Text>{translator().imagePickerScreenTitle}</Text>
                         {arrowForward}
                     </CardItem>
+                    <CardItem button onPress={() => navigate(screens.mapScreen)}>
+                        <Text>{translator().mapScreenTitle}</Text>
+                        {arrowForward}
+                    </CardItem>
                     <CardItem button onPress={() => navigate(screens.redux)}>
                         <Text>{translator().reduxScreenTitle}</Text>
                         {arrowForward}

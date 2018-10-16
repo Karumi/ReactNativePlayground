@@ -4,6 +4,7 @@ import GridScreen from "./grid-screen/GridScreen";
 import ImagePickerScreen from "./image-picker/ImagePickerScreen";
 import ListScreen from "./list-screen/ListScreen";
 import MainScreen from "./main-screen/MainScreen";
+import MapScreen from "./map-screen/MapScreen";
 import NavigationScreen from "./navigation-screen/NavigationScreen";
 import ResourcesScreen from "./resources-screen/ResourcesScreen";
 import ScrollScreen from "./scroll-screen/ScrollScreen";
@@ -46,6 +47,11 @@ const MainStack = createStackNavigator({
   },
   ImagePickerComponent: {
     screen: ImagePickerScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  MapScreen: {
+    screen: MapScreen, navigationOptions: {
       header: null,
     },
   },
