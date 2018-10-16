@@ -8,6 +8,7 @@ const screens = {
     scroll: "ScrollViewComponent",
     grid: "GridViewComponent",
     camera: "CameraComponent",
+    imagePicker: "ImagePickerComponent",
 };
 
 export default screens;

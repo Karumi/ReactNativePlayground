@@ -8,6 +8,7 @@ const en = {
     scrollScreenTitle: "Scroll",
     gridScreenTitle: "Grid",
     cameraScreenTitle: "Camera",
+    imagePickerScreenTitle: "Image Picker",
     openResourcesScreenButton: "Open resources screen",
     goBackButton: "Go back",
     openDialogButton: "Open dialog",
@@ -18,6 +19,8 @@ const en = {
     secondButtonAlertDialogTitle: "Cancel",
     firstButtonAlertDialogTitle: "OK",
     modalModeTitle: "Modal Mode",
+    pickImageFromCameraButton: "Pick image from camera",
+    pickImageFromGalleryButton: "Pick image from gallery",
 };
 
 export default en;
