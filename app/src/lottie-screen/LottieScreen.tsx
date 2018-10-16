@@ -4,11 +4,10 @@ import { Button, StyleSheet, View } from "react-native";
 const { Lottie } = DangerZone;
 
 export default class App extends React.Component {
-    private animation = null;
     public state = {
         animation: null,
     };
-    
+    private animation = null;
 
     public componentWillMount() {
         this.playAnimation();
