@@ -1,5 +1,7 @@
+import { Animated, Easing } from "react-native";
 import { createStackNavigator } from "react-navigation";
 import CameraScreen from "./camera-screen/CameraScreen";
+import CustomComponentScreen from "./custom-components-per-platform/CustomComponentScreen";
 import GridScreen from "./grid-screen/GridScreen";
 import ImagePickerScreen from "./image-picker/ImagePickerScreen";
 import ListScreen from "./list-screen/ListScreen";
@@ -10,58 +12,95 @@ import NavigationScreen from "./navigation-screen/NavigationScreen";
 import ResourcesScreen from "./resources-screen/ResourcesScreen";
 import ScrollScreen from "./scroll-screen/ScrollScreen";
 
-const MainStack = createStackNavigator({
-  Home: {
-    screen: MainScreen, navigationOptions: {
-      header: null,
+const CollapseExpand = (index, position) => {
+  const inputRange = [index - 1, index, index + 1];
+  const opacity = position.interpolate({
+    inputRange,
+    outputRange: [0, 1, 1],
+  });
+
+  const scaleY = position.interpolate({
+    inputRange,
+    outputRange: ([0, 1, 1]),
+  });
+
+  return {
+    opacity,
+    transform: [
+      { scaleY },
+    ],
+  };
+};
+
+const SlideFromRight = (index, position, width) => {
+  const translateX = position.interpolate({
+    inputRange: [index - 1, index, index + 1],
+    outputRange: [width, 0, 0],
+  });
+  const slideFromRight = { transform: [{ translateX }] };
+  return slideFromRight;
+};
+
+const transitionConfig = () => {
+  return {
+    transitionSpec: {
+      duration: 750,
+      easing: Easing.out(Easing.poly(4)),
+      timing: Animated.timing,
+      useNativeDriver: true,
     },
+    screenInterpolator: (sceneProps) => {
+      const { layout, position, scene } = sceneProps;
+      const width = layout.initWidth;
+      const { index, route } = scene;
+      const params = route.params || {};
+      const transition = params.transition || "default";
+      return {
+        collapseExpand: CollapseExpand(index, position),
+        default: SlideFromRight(index, position, width),
+      }[transition];
+    },
+  };
+};
+const MainStack = createStackNavigator({
+  MainScreen: {
+    screen: MainScreen,
   },
   Resources: {
-    screen: ResourcesScreen, navigationOptions: {
-      header: null,
-    },
+    screen: ResourcesScreen,
   },
   Navigation: {
-    screen: NavigationScreen, navigationOptions: {
-      header: null,
-    },
+    screen: NavigationScreen,
   },
   ListOfComponents: {
-    screen: ListScreen, navigationOptions: {
-      header: null,
-    },
+    screen: ListScreen,
   },
   ScrollViewComponent: {
-    screen: ScrollScreen, navigationOptions: {
-      header: null,
-    },
+    screen: ScrollScreen,
   },
   GridViewComponent: {
-    screen: GridScreen, navigationOptions: {
-      header: null,
-    },
+    screen: GridScreen,
   },
   CameraComponent: {
-    screen: CameraScreen, navigationOptions: {
-      header: null,
-    },
+    screen: CameraScreen,
   },
   ImagePickerComponent: {
-    screen: ImagePickerScreen, navigationOptions: {
-      header: null,
-    },
+    screen: ImagePickerScreen,
   },
   MapScreen: {
-    screen: MapScreen, navigationOptions: {
-      header: null,
-    },
+    screen: MapScreen,
   },
   LottieScreen: {
-    screen: LottieScreen, navigationOptions: {
-      header: null,
-    },
+    screen: LottieScreen,
   },
-});
+  CustomComponentsScreen: {
+    screen: CustomComponentScreen,
+  },
+},
+  {
+    headerMode: "none",
+    transitionConfig,
+  });
 
 const RootStack = createStackNavigator(
   {
