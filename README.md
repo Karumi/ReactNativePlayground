@@ -22,6 +22,7 @@ List of pull requests:
 * [Scroll component.](https://github.com/Karumi/ReactNativePlayground/pull/12)
 * [Grid component.](https://github.com/Karumi/ReactNativePlayground/pull/13)
 * [Camera and camera permission component.](https://github.com/Karumi/ReactNativePlayground/pull/14)
+* [Image picker.](https://github.com/Karumi/ReactNativePlayground/pull/15)
 
 ## How to run this app
 
