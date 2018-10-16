@@ -10,6 +10,7 @@ const es = {
     cameraScreenTitle: "Cámara",
     imagePickerScreenTitle: "Selector de imágenes",
     mapScreenTitle: "Localización y Mapa",
+    lottieScreenTitle: "Lottie",
     openResourcesScreenButton: "Abrir pantalla de recursos",
     goBackButton: "Volver",
     openDialogButton: "Abrir diálogo",

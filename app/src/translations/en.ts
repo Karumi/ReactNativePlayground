@@ -10,6 +10,7 @@ const en = {
     cameraScreenTitle: "Camera",
     imagePickerScreenTitle: "Image Picker",
     mapScreenTitle: "Location & Map",
+    lottieScreenTitle: "Lottie",
     openResourcesScreenButton: "Open resources screen",
     goBackButton: "Go back",
     openDialogButton: "Open dialog",

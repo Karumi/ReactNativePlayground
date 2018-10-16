@@ -3,6 +3,7 @@ import CameraScreen from "./camera-screen/CameraScreen";
 import GridScreen from "./grid-screen/GridScreen";
 import ImagePickerScreen from "./image-picker/ImagePickerScreen";
 import ListScreen from "./list-screen/ListScreen";
+import LottieScreen from "./lottie-screen/LottieScreen";
 import MainScreen from "./main-screen/MainScreen";
 import MapScreen from "./map-screen/MapScreen";
 import NavigationScreen from "./navigation-screen/NavigationScreen";
@@ -52,6 +53,11 @@ const MainStack = createStackNavigator({
   },
   MapScreen: {
     screen: MapScreen, navigationOptions: {
+      header: null,
+    },
+  },
+  LottieScreen: {
+    screen: LottieScreen, navigationOptions: {
       header: null,
     },
   },
