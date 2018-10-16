@@ -7,6 +7,7 @@ const screens = {
     list: "ListOfComponents",
     scroll: "ScrollViewComponent",
     grid: "GridViewComponent",
+    camera: "CameraComponent",
 };
 
 export default screens;

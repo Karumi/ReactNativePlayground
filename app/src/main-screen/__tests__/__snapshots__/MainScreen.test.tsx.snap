@@ -323,6 +323,56 @@ exports[`renders correctly with defaults 1`] = `
         }
         uppercase={false}
       >
+        Camera
+      </Text>
+      <Image
+        source="arrowForward"
+        style={
+          Object {
+            "height": 15,
+            "position": "absolute",
+            "right": 10,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "opacity": 1,
+          "paddingBottom": 10,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 16,
+          }
+        }
+        uppercase={false}
+      >
         Redux
       </Text>
       <Image
