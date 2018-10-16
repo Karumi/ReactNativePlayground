@@ -473,7 +473,7 @@ exports[`renders correctly with defaults 1`] = `
         }
         uppercase={false}
       >
-        Layouts
+        Lottie
       </Text>
       <Image
         source="arrowForward"
