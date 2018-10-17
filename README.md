@@ -29,6 +29,7 @@ List of pull requests:
 * [Custom navigation transitions.](https://github.com/Karumi/ReactNativePlayground/pull/18)
 * [Layouts and styles.](https://github.com/Karumi/ReactNativePlayground/pull/19)
 * [Redux integration.](https://github.com/Karumi/ReactNativePlayground/pull/20)
+* [Redux thunk integration.](https://github.com/Karumi/ReactNativePlayground/pull/21)
 
 ## How to run this app
 
