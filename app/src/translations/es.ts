@@ -12,6 +12,7 @@ const es = {
     mapScreenTitle: "Localización y Mapa",
     lottieScreenTitle: "Lottie",
     customComponentScreenTitle: "Componentes custom por plataforma",
+    reactReduxScreenTitle: "React & Redux",
     openResourcesScreenButton: "Abrir pantalla de recursos",
     goBackButton: "Volver",
     openDialogButton: "Abrir diálogo",

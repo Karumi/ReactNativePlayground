@@ -1,5 +1,7 @@
+import * as React from "react";
 import { Animated, Easing } from "react-native";
 import { createStackNavigator } from "react-navigation";
+import { Provider } from "react-redux";
 import CameraScreen from "./camera-screen/CameraScreen";
 import CustomComponentScreen from "./custom-components-per-platform/CustomComponentScreen";
 import GridScreen from "./grid-screen/GridScreen";
@@ -10,6 +12,8 @@ import LottieScreen from "./lottie-screen/LottieScreen";
 import MainScreen from "./main-screen/MainScreen";
 import MapScreen from "./map-screen/MapScreen";
 import NavigationScreen from "./navigation-screen/NavigationScreen";
+import ReactReduxScreen from "./react-redux/components/ReactReduxScreen";
+import appStore from "./redux/store";
 import ResourcesScreen from "./resources-screen/ResourcesScreen";
 import ScrollScreen from "./scroll-screen/ScrollScreen";
 
@@ -100,6 +104,9 @@ const MainStack = createStackNavigator({
   Layouts: {
     screen: LayoutScreen,
   },
+  ReactReduxScreen: {
+    screen: ReactReduxScreen,
+  },
 },
   {
     headerMode: "none",
@@ -120,4 +127,14 @@ const RootStack = createStackNavigator(
     headerMode: "none",
   },
 );
-export default RootStack;
+
+class App extends React.Component {
+  public render() {
+    return (
+      <Provider store={appStore}>
+        <RootStack />
+      </Provider>
+    );
+  }
+}
+export default App;
