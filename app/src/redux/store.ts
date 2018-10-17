@@ -1,6 +1,7 @@
 
 import { RouterAction } from "react-router-redux";
-import { combineReducers, createStore } from "redux";
+import { applyMiddleware, combineReducers, compose, createStore } from "redux";
+import thunk from "redux-thunk";
 import devToolsEnhancer from "remote-redux-devtools";
 import { StateType } from "typesafe-actions";
 import { CountersAction } from "../react-redux/counters";
@@ -14,6 +15,13 @@ const rootReducer = combineReducers({
 });
 
 function configureStore(initialState?: object) {
-    return createStore(rootReducer, initialState!, devToolsEnhancer({ realtime: true }));
+    const middleware = compose(
+        applyMiddleware(thunk),
+        devToolsEnhancer(),
+    );
+    return createStore(
+        rootReducer,
+        initialState!,
+        middleware);
 }
 export default configureStore();
