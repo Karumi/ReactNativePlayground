@@ -12,6 +12,7 @@ import LottieScreen from "./lottie-screen/LottieScreen";
 import MainScreen from "./main-screen/MainScreen";
 import MapScreen from "./map-screen/MapScreen";
 import NavigationScreen from "./navigation-screen/NavigationScreen";
+import ReactReduxScreen from "./react-redux/components/ReactReduxScreen";
 import appStore from "./redux/store";
 import ResourcesScreen from "./resources-screen/ResourcesScreen";
 import ScrollScreen from "./scroll-screen/ScrollScreen";
@@ -102,6 +103,9 @@ const MainStack = createStackNavigator({
   },
   Layouts: {
     screen: LayoutScreen,
+  },
+  ReactReduxScreen: {
+    screen: ReactReduxScreen,
   },
 },
   {

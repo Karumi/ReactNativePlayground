@@ -1,7 +1,6 @@
 const screens = {
     resources: "Resources",
     navigation: "Navigation",
-    redux: "Redux",
     layouts: "Layouts",
     navigationModal: "NavigationModalScreen",
     list: "ListOfComponents",
@@ -12,6 +11,7 @@ const screens = {
     mapScreen: "MapScreen",
     lottieScreen: "LottieScreen",
     customComponentsScreen: "CustomComponentsScreen",
+    reactRedux: "ReactReduxScreen",
 };
 
 export default screens;
