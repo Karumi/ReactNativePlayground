@@ -4,6 +4,7 @@ import CameraScreen from "./camera-screen/CameraScreen";
 import CustomComponentScreen from "./custom-components-per-platform/CustomComponentScreen";
 import GridScreen from "./grid-screen/GridScreen";
 import ImagePickerScreen from "./image-picker/ImagePickerScreen";
+import LayoutScreen from "./layout-screen/LayoutScreen";
 import ListScreen from "./list-screen/ListScreen";
 import LottieScreen from "./lottie-screen/LottieScreen";
 import MainScreen from "./main-screen/MainScreen";
@@ -95,6 +96,9 @@ const MainStack = createStackNavigator({
   },
   CustomComponentsScreen: {
     screen: CustomComponentScreen,
+  },
+  Layouts: {
+    screen: LayoutScreen,
   },
 },
   {

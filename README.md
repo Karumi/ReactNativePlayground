@@ -70,6 +70,18 @@ When talking about the app state. You can always open the ``Redux`` tab in your 
 
 ***If for some reason your app deploy fails on the real device you are using to test your app because of a timeout exception, check if your laptop and the device you are using are in the same network twice. This error is shown just when the expo IP is not reachable.***
 
+## Useful resources:
+
+Finding information about how to create your own react native app is not easy at all. There are a lot of resources and we've just curated a list of awesome sites you can review when you have any doubt any topic.
+
+* [Comprehensive React Native guide](https://www.reactnative.guide/index.html).
+* [Flex box layout](https://medium.com/@drorbiran/the-full-react-native-layout-cheat-sheet-a4147802405c).
+* [Esential components implemented by the React Native team](https://facebook.github.io/react-native/docs/activityindicator).
+* [Esential components for react-native implemented by the community.](https://nativebase.io/).
+* [Components lifecycle and state](https://reactjs.org/docs/state-and-lifecycle.html).
+* [Typescript cheat sheet.](https://devhints.io/typescript)
+* [React native components with typescript.](https://levelup.gitconnected.com/ultimate-react-component-patterns-with-typescript-2-8-82990c516935)
+
 License
 -------
 

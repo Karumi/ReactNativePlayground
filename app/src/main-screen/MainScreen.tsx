@@ -61,12 +61,12 @@ class MainScreen extends React.Component<Props> {
                         <Text>{translator().customComponentScreenTitle}</Text>
                         {arrowForward}
                     </CardItem>
-                    <CardItem button onPress={() => navigate(screens.redux)}>
-                        <Text>{translator().reduxScreenTitle}</Text>
-                        {arrowForward}
-                    </CardItem>
                     <CardItem button onPress={() => navigate(screens.layouts)}>
                         <Text>{translator().layoutsScreenTitle}</Text>
+                        {arrowForward}
+                    </CardItem>
+                    <CardItem button onPress={() => navigate(screens.redux)}>
+                        <Text>{translator().reduxScreenTitle}</Text>
                         {arrowForward}
                     </CardItem>
                 </Card>
