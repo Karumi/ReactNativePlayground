@@ -75,7 +75,7 @@ When talking about the app state. You can always open the ``Redux`` tab in your 
 
 When debugging something related to the redux store usage, you can always use a tool named ``remote-redux-devtools``. Once you configure this tool you can install the redux tool for your Chrome browser, press on the right button in your Chrome Browser window and select the option ``Open remote dev tools``. After that you should see a window like this:
 
-![reduxDevTool](./art/reduxDevTool.gif)
+![reduxDevTool](./art/reduxDevTools.gif)
 
 ## Useful resources:
 
