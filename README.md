@@ -79,6 +79,8 @@ Finding information about how to create your own react native app is not easy at
 * [Esential components implemented by the React Native team](https://facebook.github.io/react-native/docs/activityindicator).
 * [Esential components for react-native implemented by the community.](https://nativebase.io/).
 * [Components lifecycle and state](https://reactjs.org/docs/state-and-lifecycle.html).
+* [Typescript cheat sheet.](https://devhints.io/typescript)
+* [React native components with typescript.](https://levelup.gitconnected.com/ultimate-react-component-patterns-with-typescript-2-8-82990c516935)
 
 License
 -------
