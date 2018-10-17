@@ -78,6 +78,7 @@ Finding information about how to create your own react native app is not easy at
 * [Flex box layout](https://medium.com/@drorbiran/the-full-react-native-layout-cheat-sheet-a4147802405c).
 * [Esential components implemented by the React Native team](https://facebook.github.io/react-native/docs/activityindicator).
 * [Esential components for react-native implemented by the community.](https://nativebase.io/).
+* [Components lifecycle and state](https://reactjs.org/docs/state-and-lifecycle.html).
 
 License
 -------
